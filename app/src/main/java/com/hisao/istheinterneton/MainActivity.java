@@ -14,9 +14,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         setTitle(getResources().getString(R.string.app_name));
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         TextView txtAns = (TextView) findViewById(R.id.txtAnswer);
         if (ConnectionSupport.isInternetAvailable(getApplicationContext())){
             txtAns.setText(getResources().getString(R.string.yes));
