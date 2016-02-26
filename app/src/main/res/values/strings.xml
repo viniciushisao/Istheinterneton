@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Istheinterneton</string>
+    <string name="app_name">Is the Internet ON?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

@@ -15,14 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Is the Internet on?");
+        setTitle(getResources().getString(R.string.app_name));
 
         TextView txtAns = (TextView) findViewById(R.id.txtAnswer);
-        if (ConnectionSupport.isInternetAvailable()){
-            txtAns.setText("Yes");
+        if (ConnectionSupport.isInternetAvailable(getApplicationContext())){
+            txtAns.setText(getResources().getString(R.string.yes));
         }else{
-            txtAns.setText("No");
+            txtAns.setText(getResources().getString(R.string.no));
         }
     }
-
 }
