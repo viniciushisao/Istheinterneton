@@ -2,46 +2,58 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_0edc09983ec1a3ae2cf3415fbefc3ba151319147.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
         <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_1b60314df934e22d234e9db342110c7f97dc9ca6.jar" />
     </item>
     <item
+        is-multidex="false"
         jar="/Users/vinicius/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_9702b6e58e154a27792bc4d8a6be4e2742c74420.jar" />
     </item>
     <item
+        is-multidex="false"
         jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
-        sha1="bc4f5ee65239e35a01a263c7f255a8b04b58b096">
+        sha1="b3134e8a6fe8e1e67516ce95cb568b2c67a518e0">
         <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3306c3359edf51cd6d80aeba0093141d948a16cd.jar" />
     </item>
     <item
-        jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5e7d61b844ce9cb7ac929462cbdecab878d4906d">
-        <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/instant-run_8948e70ed90ded5e675eb92d310414cbcdfc9b68.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
         <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_c86d462add55df0f99c3f73f177f6456844a9abc.jar" />
     </item>
     <item
-        jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_0edc09983ec1a3ae2cf3415fbefc3ba151319147.jar" />
+        sha1="e9cbeb3f0b9151aa666dc01774b5b90bdb908ec5">
+        <dex dex="/Users/vinicius/dev/android/Istheinterneton/app/build/intermediates/pre-dexed/debug/instant-run_8948e70ed90ded5e675eb92d310414cbcdfc9b68.jar" />
     </item>
 
 </items>

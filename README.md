@@ -14,7 +14,7 @@ Nowadays the Android OS is far more intelligent then when I started to code and 
 
 Anyway I created this project to help anyone who is missing an app just like this one!
 
-You can check the stable version at [Google Play](https://play.google.com/store/apps/details?id=com.hisao.istheinterneton)
+<a href="https://play.google.com/store/apps/details?id=com.hisao.istheinterneton&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img height="60px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" /></a>
 
 Thanks
 Suzuki
