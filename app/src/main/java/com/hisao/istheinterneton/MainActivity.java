@@ -1,56 +1,67 @@
 package com.hisao.istheinterneton;
 
-import android.content.BroadcastReceiver;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
-import android.support.v7.app.AppCompatActivity;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
-
-import java.net.InetAddress;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private static MainActivity mainActivityInstance;
+    ConnectionSupport connectionSupport;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mainActivityInstance = this;
         setContentView(R.layout.activity_main);
         setTitle(getResources().getString(R.string.app_name));
-        this.mainActivityInstance = this;
 
         final IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
-        registerReceiver((BroadcastReceiver) new ConnectionSupport(), intentFilter);
+        connectionSupport = new ConnectionSupport();
+        registerReceiver(connectionSupport, intentFilter);
+    }
+
+    public static MainActivity getInstance() {
+        return mainActivityInstance;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        unregisterReceiver(connectionSupport);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        updateUI(ConnectionSupport.isInternetAvailable(this));
-
-    }
-
-    public static MainActivity getInstace(){
-        return mainActivityInstance ;
+        updateUI();
     }
 
 
-    public void updateUI(final boolean isTheInternetOn){
+    public void updateUI() {
 
-        MainActivity.this.runOnUiThread(new Runnable() {
-            public void run() {
+        AsyncTask<Void, Void, Boolean> asyncTask = new AsyncTask<Void, Void, Boolean>() {
+            @Override
+            protected Boolean doInBackground(Void... params) {
+                return ConnectionSupport.isInternetAvailable();
+            }
+
+            @Override
+            protected void onPostExecute(Boolean aBoolean) {
+                super.onPostExecute(aBoolean);
                 TextView txtAns = (TextView) findViewById(R.id.txtAnswer);
-                if (isTheInternetOn){
+                if (aBoolean) {
                     txtAns.setText(getResources().getString(R.string.yes));
-                }else{
+                } else {
                     txtAns.setText(getResources().getString(R.string.no));
                 }
             }
-        });
-
+        };
+        asyncTask.execute();
     }
 }
