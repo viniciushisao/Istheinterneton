@@ -33,7 +33,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        unregisterReceiver(connectionSupport);
+        if (connectionSupport != null){
+            try{
+                unregisterReceiver(connectionSupport);
+            }catch (Exception e){
+
+            }
+        }
     }
 
     @Override

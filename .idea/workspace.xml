@@ -15,15 +15,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/ConnectionSupport.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/ConnectionSupport.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Istheinterneton.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,15 +56,15 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#619#662#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
                 <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1789#1827#0" expanded="true" />
-                <element signature="e#1890#1927#0" expanded="true" />
+                <element signature="e#1913#1951#0" expanded="true" />
+                <element signature="e#2014#2051#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2111,7 +2106,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2179,8 +2174,8 @@
             <element signature="e#619#662#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1789#1827#0" expanded="true" />
-            <element signature="e#1890#1927#0" expanded="true" />
+            <element signature="e#1913#1951#0" expanded="true" />
+            <element signature="e#2014#2051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2230,8 +2225,8 @@
             <element signature="e#619#662#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1789#1827#0" expanded="true" />
-            <element signature="e#1890#1927#0" expanded="true" />
+            <element signature="e#1913#1951#0" expanded="true" />
+            <element signature="e#2014#2051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2281,8 +2276,8 @@
             <element signature="e#619#662#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1789#1827#0" expanded="true" />
-            <element signature="e#1890#1927#0" expanded="true" />
+            <element signature="e#1913#1951#0" expanded="true" />
+            <element signature="e#2014#2051#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2348,15 +2343,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hisao/istheinterneton/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#619#662#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1789#1827#0" expanded="true" />
-            <element signature="e#1890#1927#0" expanded="true" />
+            <element signature="e#1913#1951#0" expanded="true" />
+            <element signature="e#2014#2051#0" expanded="true" />
           </folding>
         </state>
       </provider>
